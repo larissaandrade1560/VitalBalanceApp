@@ -5,53 +5,44 @@ tempo. A comparação considera o problema específico do Plantão Legal e não 
 que alguma delas seja uma solução clínica. As páginas foram consultadas em 10 de
 setembro de 2026.
 
-## 1. Google Calendar
+## 1. Minha Escala
 
-- **Principais funcionalidades:** criação de eventos, recorrência, lembretes,
-  visualização por dia/semana/mês e compartilhamento de agendas.
-- **Pontos positivos:** interface conhecida, boa visualização temporal, lembretes e
-  integração com outros serviços.
-- **Pontos negativos:** exige configuração manual para transformar cada plantão em
-  evento; não calcula horas extras de modo específico nem oferece indicador de fadiga.
-  O compartilhamento pode ser inadequado para dados sensíveis de jornada.
-- **Interface/experiência:** calendário visual e flexível, porém com mais etapas do
-  que o desejável para registrar rapidamente um plantão já encerrado.
-- **Fonte:** [Google Calendar](https://calendar.google.com/).
+- **Principais funcionalidades:** Gerenciador de escalas inteligente, controle 
+  financeiro detalhado, gestão de pagamentos e análise de bem-estar e burnout.
+- **Pontos positivos:** Ótimo para prever o salário líquido do mês, monitoramento
+  de sobrecarga e risco de burnout e atende a diferentes tipos e modelos de turnos.
+- **Pontos negativos:** Configuração inicial bastante trabalhosa, o que faz demandar
+  bastante tempo, e algumas funcionalidades importantes não são liberadas gratuitamente.
+- **Interface/experiência:** Tela do calendário limpo e tendo suporte de cores
+  personalizadas para fácil identificação das folgas, dias trabalhados e turnos 
+  diferentes, e também apresenta opção de adicionar Widgets na tela inicial do telefone.
+- **Fonte:** [Minha Escala](https://play.google.com/store/apps/details?id=com.minha.escala.alesson&hl=pt_BR).
 
-## 2. Toggl Track
+## 2. Plantão Fácil
 
-- **Principais funcionalidades:** cronômetro de tempo, lançamentos manuais,
-  projetos, etiquetas, relatórios e exportação.
-- **Pontos positivos:** detalhamento de tempo, relatórios úteis e possibilidade de
-  corrigir lançamentos manualmente.
-- **Pontos negativos:** é orientado à produtividade e faturamento, não à recuperação
-  entre plantões; a configuração de projetos e categorias pode aumentar o esforço de
-  uso; não possui indicador preventivo de fadiga específico.
-- **Interface/experiência:** registro por cronômetro é direto durante a atividade,
-  mas pode falhar quando o usuário esquece de iniciar ou parar o contador.
-- **Fonte:** [Toggl Track](https://toggl.com/track/).
+- **Principais funcionalidades:** Cálculo automático de escalas, 
+  Gestão de trocas de plantão e Geração de relatórios mensais e resumos em PDF.
+- **Pontos positivos:** Automatização do cálculo de folgas para evitar erros manuais, permite visualizar diversos plantões no mesmo   dia e atende a plantões com escalas irregulares.
+- **Pontos negativos:** a remoção dos anúncios e a liberação de recursos mais avançados estão presos atrás de pagamentos de  assinaturas.
+- **Interface/experiência:** interface bem simples e direta para o uso rápido e fácil, com visual focado em agendas/calendários.
+- **Fonte:** [Plantão Fácil](https://play.google.com/store/apps/details?id=br.kms.plantaofacil&hl=pt_BR).
 
-## 3. WorkingHours
+## 3. Planningify Horas de Trabalho
 
-- **Principais funcionalidades:** registro de períodos trabalhados, metas, saldo de
-  horas, estatísticas, temporizador e exportação de dados.
-- **Pontos positivos:** foco em acompanhamento de horas, suporte a múltiplos
-  empregos e visualização de saldo; aproxima-se do problema de jornada variável.
-- **Pontos negativos:** não foi desenhado especificamente para plantões críticos,
-  descanso ou fadiga; a quantidade de opções pode pesar para quem só precisa registrar
-  rapidamente um turno; os recursos variam conforme plataforma e versão.
-- **Interface/experiência:** concentra informações de tempo e saldo, mas o Plantão
-  Legal pode ser mais objetivo ao destacar descanso, horas extras e privacidade local.
-- **Fonte:** [WorkingHours](https://workinghoursapp.com/).
+- **Principais funcionalidades:** Registro dos horários de entrada, intervalo e saída, cálculo automático do total de horas trabalhadas, separando por Semanal, Mensal e Anual, e geração dos relatórios em diferentes formatos como CSV ou PDF.
+- **Pontos positivos:** Funciona de maneira offline, armazenando o dados de localmente no próprio telefone, e tem a funcionalidade de copiar a rotina de semanas anteriores de forma fácil.
+- **Pontos negativos:** Interface menos polido em comparação aos outros, e novamente é preciso fazer compras no app para liberar o recursos completos e remover anúncios.
+- **Interface/experiência:** Interface focada em tabelas e listas de marcação de ponto, priorizando o preenchimento rápido dos horários de plantão.
+- **Fonte:** [Planningify](https://apps.apple.com/br/app/planningify-horas-de-trabalho/id1173642542).
 
 ## O que pode ser aproveitado ou melhorado
 
-Podemos aproveitar do Google Calendar a visualização por períodos e os lembretes; do
-Toggl Track, os lançamentos manuais e relatórios; e do WorkingHours, o saldo de horas
-e a separação por vínculo. O projeto deve reduzir a configuração inicial, permitir
-registro offline em até três interações, calcular automaticamente duração e extras,
-mostrar um indicador preventivo de carga e manter os dados sob controle local do
-usuário.
+Podemos aproveitar do "Minha Escala" o suporte a diferentes tipos e modelos de turnos; do
+"Plantão Fácil", a automatização do cálculo de folgas para evitar erros manuais; e do Planningify,
+o cálculo automático do total de horas trabalhadas, separando por Semanal, Mensal e Anual. 
+O projeto deve reduzir a configuração inicial, permitir registro offline em até três interações,
+calcular automaticamente duração e extras, mostrar um indicador preventivo de carga e manter os
+dados sob controle local do usuário.
 
 ## O que o aplicativo poderá fazer de diferente ou melhor?
 
