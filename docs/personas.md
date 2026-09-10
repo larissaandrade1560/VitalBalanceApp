@@ -1,66 +1,23 @@
-Personas — Plantão Legal
-Persona 1 — Mariana Oliveira
+# Personas do Plantão Legal
 
-Idade: 29 anos
-Profissão: Enfermeira
-Prioridade: Alta
+## Persona 1: Camila Ribeiro
 
-Perfil
+- **Perfil/contexto:** 29 anos, enfermeira, trabalha em dois hospitais e alterna plantões diurnos e noturnos. Usa Android e costuma encerrar o turno cansada, com pouco tempo para preencher registros.
+- **Objetivos:** acompanhar horas trabalhadas nos dois vínculos, conferir horas extras e evitar aceitar um novo plantão sem perceber que descansou pouco.
+- **Necessidades:** registro rápido e offline, histórico por local de trabalho, cálculo automático de duração, alertas configuráveis e exportação de um relatório.
+- **Dores:** esquece horários após noites intensas, usa anotações espalhadas e tem receio de expor sua escala ou seus locais de trabalho.
+- **Comportamentos:** consulta a escala antes do turno, registra o horário logo após sair quando consegue e revisa a semana antes de assumir horas adicionais.
+- **Relação com o aplicativo:** usuária recorrente; abre o app no início/fim do plantão e usa o painel semanal para decidir sobre descanso e disponibilidade.
 
-Trabalha em dois hospitais, geralmente em escala 12x36, e às vezes realiza plantões extras.
+## Persona 2: Rafael Martins
 
-Objetivos
-Organizar os plantões.
-Controlar horas trabalhadas e extras.
-Acompanhar o tempo de descanso.
-Evitar jornadas excessivas.
-Necessidades
-Registro rápido de plantões.
-Cálculo automático das horas.
-Histórico por data e local.
-Alertas de carga horária elevada.
-Dores
-Dificuldade para controlar vários plantões.
-Esquecimento de horários.
-Pouco controle sobre horas extras e descanso.
-Comportamentos
+- **Perfil/contexto:** 37 anos, segurança patrimonial, atua em postos diferentes e faz jornadas de 12 horas, às vezes com troca de escala. Tem familiaridade básica com aplicativos e usa o celular durante intervalos.
+- **Objetivos:** manter um histórico confiável dos turnos, comparar horas previstas e realizadas e organizar a remuneração das horas extras.
+- **Necessidades:** campos simples, funcionamento em locais com sinal ruim, filtros por posto e relatório legível para consulta pessoal.
+- **Dores:** mudanças de escala comunicadas em cima da hora, dificuldade para lembrar o horário real de saída e preocupação com o consumo de dados móveis.
+- **Comportamentos:** registra informações em blocos, consulta o histórico no fim do mês e prefere notificações discretas em vez de alertas constantes.
+- **Relação com o aplicativo:** usuário regular; usa sobretudo o cadastro, o histórico mensal e a exportação de relatório.
 
-Usa o celular diariamente e prefere ferramentas simples e rápidas.
+## Persona prioritária
 
-Relação com o aplicativo
-
-Usará o Plantão Legal para registrar plantões, acompanhar horas e identificar excesso de trabalho.
-
-Persona 2 — Lucas Santos
-
-Idade: 34 anos
-Profissão: Motorista de aplicativo
-Prioridade: Média
-
-Perfil
-
-Possui horários flexíveis e costuma trabalhar mais horas quando precisa aumentar sua renda.
-
-Objetivos
-Controlar o tempo de trabalho.
-Organizar sua rotina.
-Evitar jornadas muito longas.
-Necessidades
-Iniciar e finalizar jornadas facilmente.
-Visualizar horas trabalhadas.
-Receber alertas de excesso.
-Dores
-Não possui horário fixo.
-Pode trabalhar muitas horas sem perceber.
-Não mantém um controle organizado.
-Comportamentos
-
-Usa o celular constantemente e prefere soluções rápidas.
-
-Relação com o aplicativo
-
-Utilizará o aplicativo para registrar sua jornada e acompanhar seu tempo de trabalho e descanso.
-
-Persona prioritária
-
-Mariana Oliveira é a persona prioritária, pois sua rotina de plantões, horas extras e escalas está diretamente relacionada ao problema principal do projeto. Suas necessidades também correspondem às principais funcionalidades do Plantão Legal.
+**Camila Ribeiro é a persona prioritária.** Enfermeiros representam um caso de alto impacto: combinam jornadas alternadas, possibilidade de plantões consecutivos e responsabilidade sobre decisões que podem afetar outras pessoas. Além disso, o estudo de caso cita explicitamente profissionais de saúde e exige uma interação curta após uma jornada cansativa. Atender Camila primeiro força o produto a resolver os requisitos mais críticos de rapidez, privacidade, descanso e funcionamento offline; essas decisões também beneficiam Rafael e os demais profissionais.
