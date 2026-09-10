@@ -1,62 +1,131 @@
-# Pesquisa: jornada de trabalho e fadiga
-
-## Objetivo
-
-Esta pesquisa investiga o problema enfrentado por profissionais que trabalham em
-plantões ou jornadas variáveis. O foco é entender como carga horária, descanso,
-fadiga e privacidade devem influenciar o Plantão Legal. As fontes foram consultadas
-em 10 de setembro de 2026.
-
-## Achados da pesquisa
-
-### Jornadas extensas aumentam riscos
-
-O NIOSH relaciona jornadas longas e trabalho em turnos a mais fadiga, menor tempo
-de recuperação e maior risco de erros e acidentes. A orientação também destaca a
-importância de pausas e de períodos adequados de descanso. Para o aplicativo, isso
-reforça a necessidade de registrar início, término, horas extras e intervalo de
-descanso de forma rápida, além de mostrar a carga acumulada com linguagem de alerta,
-sem afirmar que o usuário possui uma condição clínica.
-
-### Burnout é um fenômeno ocupacional
-
-A Organização Mundial da Saúde classifica burnout na CID-11 como fenômeno
-ocupacional resultante de estresse crônico no trabalho não gerenciado com sucesso.
-Isso não transforma o aplicativo em instrumento de diagnóstico. O produto deve
-apoiar percepção e organização da jornada, indicar sobrecarga de forma preventiva e
-orientar o usuário a procurar apoio profissional ou institucional quando necessário.
-
-### Registros precisam funcionar em contexto real
-
-Profissionais de saúde, segurança, transporte e emergência podem estar cansados,
-em ambientes com ruído, conectividade instável ou pouco tempo disponível. Um fluxo
-com poucos campos, confirmação clara e uso offline reduz o risco de deixar o registro
-para depois. A pesquisa da ILO sobre tempo de trabalho também evidencia que o
-acompanhamento de horas e períodos de descanso é relevante para condições de trabalho
-mais seguras e equilibradas.
-
-### Dados de jornada exigem privacidade
-
-Horários, locais e padrões de trabalho podem revelar informações profissionais
-sensíveis. A coleta deve ser mínima e o usuário deve controlar exportação, exclusão e
-compartilhamento. Por isso, o projeto prevê armazenamento local, sincronização apenas
-por Wi-Fi e geração de PDF sob ação explícita do usuário.
-
-## Três descobertas importantes e impacto no projeto
-
-1. **A fadiga é influenciada por duração e recuperação, não apenas pelo total de
-   horas.** O painel deverá combinar carga acumulada, horas extras e tempo desde o
-   último plantão, incentivando descanso sem produzir diagnóstico.
-2. **O momento do registro é crítico: pode ocorrer após uma jornada cansativa.** O
-   cadastro deve pedir somente data, início e término e ser concluído em até três
-   interações, com funcionamento offline.
-3. **Os dados podem expor a rotina profissional do usuário.** O aplicativo deverá
-   priorizar armazenamento privado, permissões mínimas, exportação manual de PDF e
-   exclusão controlada dos registros.
-
-## Fontes
-
-- World Health Organization. [Burn-out an occupational phenomenon](https://www.who.int/mental_health/evidence/burn-out/en/).
-- CDC/NIOSH. [Long Work Hours, Extended or Irregular Shifts, and Worker Fatigue](https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod7/05.html).
-- International Labour Organization. [Working Time and Work-Life Balance Around the World](https://www.ilo.org/publications/working-time-and-work-life-balance-around-world).
-- World Health Organization. [WHO guidelines on mental health at work](https://www.who.int/publications/i/item/9789240053052).
+# Pesquisa sobre o aplicativo Plantão Legal
+2
+ 
+3
+## Introdução
+4
+ 
+5
+O **Plantão Legal** é uma proposta de aplicativo voltada à organização da rotina de profissionais que trabalham em regime de plantão, especialmente na área da saúde.
+6
+ 
+7
+O objetivo da pesquisa é compreender os principais problemas relacionados à gestão de escalas, trocas de plantão, controle de jornadas, comunicação entre equipes e acompanhamento de pagamentos.
+8
+ 
+9
+O estudo considera dois grupos principais:
+10
+ 
+11
+- **Profissionais plantonistas:** médicos, enfermeiros, técnicos de enfermagem e outros trabalhadores da saúde.
+12
+- **Gestores:** coordenadores, responsáveis pela elaboração de escalas, setores de Recursos Humanos e administradores de hospitais e clínicas.
+13
+ 
+14
+---
+15
+ 
+16
+## 1. Informações relevantes sobre o problema
+17
+ 
+18
+Profissionais da saúde frequentemente trabalham em turnos noturnos, escalas alternadas e diferentes instituições. Essa rotina pode dificultar a organização dos horários, o controle dos pagamentos e a comunicação com gestores e colegas.
+19
+ 
+20
+### Principais problemas identificados
+21
+ 
+22
+- Escalas distribuídas por planilhas, papéis e aplicativos de mensagens.
+23
+- Dificuldade para identificar qual é a versão mais recente da escala.
+24
+- Conflitos entre plantões de diferentes instituições.
+25
+- Alterações de horário que não são comunicadas a todos.
+26
+- Dificuldade para encontrar profissionais substitutos.
+27
+- Trocas de plantão realizadas sem registro ou aprovação.
+28
+- Esquecimento de plantões e compromissos.
+29
+- Falta de controle sobre as horas trabalhadas.
+30
+- Dificuldade para conferir pagamentos recebidos e pendentes.
+31
+- Excesso de plantões consecutivos.
+32
+- Pouco tempo disponível para repouso e lazer.
+33
+- Risco de ausência de profissionais em serviços essenciais.
+34
+ 
+35
+Um estudo com 696 profissionais de enfermagem identificou que o trabalho noturno, a responsabilidade pela renda familiar e o desequilíbrio entre esforço e recompensa estavam relacionados a jornadas mais longas.
+36
+ 
+37
+A pesquisa também apontou uma relação entre jornadas extensas e tempo insuficiente para descanso e lazer.
+38
+ 
+39
+O Ministério da Saúde informa que o excesso de trabalho é uma das principais causas da síndrome de burnout. Médicos e enfermeiros fazem parte dos grupos frequentemente expostos à pressão, ao desgaste emocional e a responsabilidades constantes.
+40
+ 
+41
+Entre os possíveis sintomas do burnout estão:
+42
+ 
+43
+- Cansaço físico e mental.
+44
+- Dificuldade de concentração.
+45
+- Insônia.
+46
+- Alterações de humor.
+47
+- Fadiga.
+48
+- Redução da motivação profissional.
+49
+- Sentimento de esgotamento.
+50
+ 
+51
+Um estudo realizado com 153 profissionais da Atenção Básica em Juiz de Fora encontrou prevalência de burnout de 51%, sendo maior entre profissionais de enfermagem.
+52
+ 
+53
+Esse resultado não deve ser generalizado para todos os profissionais brasileiros, pois representa um grupo e um local específicos. Entretanto, ele demonstra a importância de considerar a sobrecarga e o bem-estar dos usuários durante o desenvolvimento do aplicativo.
+54
+ 
+55
+Além de prejudicar o trabalhador, o cansaço e a desorganização podem afetar o funcionamento da equipe e a segurança dos pacientes.
+56
+ 
+57
+Portanto, o problema que o Plantão Legal pretende resolver não envolve somente a organização de uma agenda. O aplicativo também deve contribuir para:
+58
+ 
+59
+- Melhorar a comunicação entre profissionais e gestores.
+60
+- Evitar conflitos de horário.
+61
+- Registrar trocas de plantão.
+62
+- Acompanhar horas trabalhadas.
+63
+- Controlar pagamentos.
+64
+- Alertar sobre possíveis situações de sobrecarga.
+65
+ 
+66
+---
