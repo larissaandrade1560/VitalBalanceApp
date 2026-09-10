@@ -1,4 +1,4 @@
-# Vital Balance
+# Plantão Legal
 
 ## Descrição
 
@@ -91,3 +91,11 @@ A estrutura pode ser ajustada conforme a tecnologia escolhida e a evolução do 
 ## Status do projeto
 
 Em desenvolvimento.
+
+## Documentação da Atividade 02
+
+- [Pesquisa sobre jornada, fadiga e burnout](docs/pesquisa.md)
+- [Benchmark de soluções existentes](docs/benchmark.md)
+- [Personas do projeto](docs/personas.md)
+- [Roteiro da apresentação](docs/apresentacao.md)
+- [Apresentação em PDF](docs/apresentacao.pdf)

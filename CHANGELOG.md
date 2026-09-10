@@ -13,3 +13,13 @@ O Plantão Legal é um aplicativo acadêmico para controle de plantões e horas 
 - Criação do arquivo `docs/estudo-de-caso.md`.
 - Início da documentação do estudo de caso do aplicativo.
 - Definição da estrutura inicial do projeto.
+
+## [0.2.0] - Pesquisa, benchmark e personas
+
+### Adicionado
+
+- Pesquisa documentada sobre jornadas extensas, fadiga, burnout e privacidade.
+- Benchmark de Google Calendar, Toggl Track e WorkingHours.
+- Duas personas, com definição da persona prioritária.
+- Roteiro da apresentação da Atividade 02.
+- Links da documentação acadêmica no README.
