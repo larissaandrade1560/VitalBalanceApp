@@ -2,7 +2,7 @@
 
 Todas as alterações relevantes do projeto **VitalBalanceApp** serão registradas neste arquivo.
 
-O Plantão Legal é um aplicativo acadêmico para controle de plantões e horas extras. Seu objetivo é auxiliar trabalhadores em regime de plantão no monitoramento da carga horária, contribuindo para a prevenção de fadiga excessiva e burnout. O público-alvo inclui médicos, enfermeiros, técnicos de enfermagem, seguranças, motoristas de aplicativo e bombeiros.
+O VitalBalanceApp é um aplicativo acadêmico para controle de plantões e horas extras. Seu objetivo é auxiliar trabalhadores em regime de plantão no monitoramento da carga horária, contribuindo para a prevenção de fadiga excessiva e burnout. O público-alvo inclui médicos, enfermeiros, técnicos de enfermagem, seguranças, motoristas de aplicativo e bombeiros.
 
 ## [0.1.0] - Versão inicial
 
