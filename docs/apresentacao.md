@@ -29,3 +29,7 @@ adicionais.
 
 O Plantão Legal transforma o registro simples da jornada em uma visão preventiva,
 privada e acionável para profissionais que trabalham em regime de plantão.
+
+## Link da apresentação no Gamma
+
+[Abrir a apresentação no Gamma](https://gamma.app/docs/Vital-Balance-App-b00w3ofeudee2ie)
